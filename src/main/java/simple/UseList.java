@@ -54,5 +54,11 @@ public class UseList {
     if (sa instanceof String []) {
       System.out.println("yup, it's a String array");
     }
+
+    int [] ia = { 1,2,3 };
+    // no generics with primitives (yet)
+//    List<int> li;
+    List<Integer> li;
+    List<int[]> lia;
   }
 }
