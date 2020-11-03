@@ -13,6 +13,6 @@ public class UsePair {
 
     Pair<LocalDate> pld = new Pair<>(LocalDate.now(), LocalDate.now());
 
-//    var apair = new Pair<>("hello", LocalDate.now());
+    var apair = new Pair<>("hello", LocalDate.now());
    }
 }
